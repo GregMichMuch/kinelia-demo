@@ -1,0 +1,29 @@
+#EXTM3U
+# Kinelia legal demo playlist - Creative Commons works and public test streams only.
+# Credits and licenses: https://gregmichmuch.github.io/kinelia-demo/
+# Every line below must be tested before each Google Play review (see README).
+
+# ---------- Movies ----------
+#EXTINF:-1 tvg-logo="https://gregmichmuch.github.io/kinelia-demo/posters/big-buck-bunny.jpg" group-title="Animation",Big Buck Bunny (2008)
+https://download.blender.org/demo/movies/BBB/bbb_sunflower_1080p_30fps_normal.mp4
+#EXTINF:-1 tvg-logo="https://gregmichmuch.github.io/kinelia-demo/posters/sintel.jpg" group-title="Fantasy",Sintel (2010)
+https://download.blender.org/durian/movies/Sintel.2010.1080p.mkv
+#EXTINF:-1 tvg-logo="https://gregmichmuch.github.io/kinelia-demo/posters/elephants-dream.jpg" group-title="Sci-Fi",Elephants Dream (2006)
+https://download.blender.org/ED/ED_1024.avi
+#EXTINF:-1 tvg-logo="https://gregmichmuch.github.io/kinelia-demo/posters/sprite-fright.jpg" group-title="Comedy & Horror",Sprite Fright (2021)
+https://archive.org/download/sprite-fright-2021/Sprite%20Fright%20(2021).mp4
+
+# ---------- Series (episodes recognized by "S01E01" in the title) ----------
+# Caminandes - Internet Archive items Caminandes1LlamaDrama, Caminandes2GranDillama, CaminandesLlamigos.
+#EXTINF:-1 tvg-logo="https://gregmichmuch.github.io/kinelia-demo/posters/caminandes.jpg" group-title="Kids & Family",Caminandes S01E01 Llama Drama
+https://archive.org/download/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+#EXTINF:-1 tvg-logo="https://gregmichmuch.github.io/kinelia-demo/posters/caminandes.jpg" group-title="Kids & Family",Caminandes S01E02 Gran Dillama
+https://archive.org/download/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+#EXTINF:-1 tvg-logo="https://gregmichmuch.github.io/kinelia-demo/posters/caminandes.jpg" group-title="Kids & Family",Caminandes S01E03 Llamigos
+https://archive.org/download/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
+
+# ---------- Live TV (public test streams, invented names) ----------
+#EXTINF:-1 tvg-logo="https://gregmichmuch.github.io/kinelia-demo/posters/demo-channel-1.png" group-title="Demo channels",Demo Channel 1
+https://ireplay.tv/test/blender.m3u8
+#EXTINF:-1 tvg-logo="https://gregmichmuch.github.io/kinelia-demo/posters/demo-channel-2.png" group-title="Demo channels",Demo Channel 2
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
