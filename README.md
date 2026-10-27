@@ -37,3 +37,12 @@ Live demo channels use public test streams provided for player testing by their 
 
 Before every Google Play review, every line of `demo.m3u` must be played once (VLC or Kinelia).
 A dead link is replaced or removed, never left in place.
+
+## Legal pages of the Kinelia app
+
+`legal/privacy.html` (privacy policy) and `legal/terms.html` (terms of use), in English, French and Spanish:
+
+- https://gregmichmuch.github.io/kinelia-demo/legal/privacy.html
+- https://gregmichmuch.github.io/kinelia-demo/legal/terms.html
+
+They are generated from the app's own texts (`assets/legal/*.md` in the Kinelia source) by `tool/build_legal_pages.py`; do not edit the HTML by hand.
