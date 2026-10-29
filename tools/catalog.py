@@ -13,13 +13,13 @@ PAGES = "https://gregmichmuch.github.io/kinelia-demo"
 # ---------------------------------------------------------------------------
 FILMS = [
     dict(slug="big-buck-bunny", title="Big Buck Bunny", year=2008, group="Animation",
-         url="https://download.blender.org/demo/movies/BBB/bbb_sunflower_1080p_30fps_normal.mp4",
+         url="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
          author="Blender Foundation", licence="CC BY 3.0", existing=True),
     dict(slug="elephants-dream", title="Elephants Dream", year=2006, group="Sci-Fi",
-         url="https://download.blender.org/ED/ED_1024.avi",
+         url="https://download.blender.org/ED/elephantsdream-720-h264-st-aac.mov",
          author="Blender Foundation / Netherlands Media Art Institute", licence="CC BY 2.5", existing=True),
     dict(slug="sintel", title="Sintel", year=2010, group="Fantasy",
-         url="https://download.blender.org/durian/movies/Sintel.2010.1080p.mkv",
+         url="https://download.blender.org/demo/movies/Sintel.2010.1080p.mkv",
          author="Blender Foundation", licence="CC BY 3.0", existing=True),
     dict(slug="tears-of-steel", title="Tears of Steel", year=2012, group="Sci-Fi",
          url="https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov",
@@ -73,7 +73,7 @@ SERIES = [
 # ---------------------------------------------------------------------------
 CHANNELS = [
     dict(id="orbis-cine.demo", name="Orbis Ciné", group="Cinema", logo="orbis-cine",
-         url="https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+         url="https://test-streams.mux.dev/tos_ismc/main.m3u8",
          colors=("#1b1f3b", "#e3a740"), mark="ORBIS\nCINÉ"),
     dict(id="pixelia-kids.demo", name="Pixelia Kids", group="Kids", logo="pixelia-kids",
          url="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
@@ -82,7 +82,7 @@ CHANNELS = [
          url="https://ireplay.tv/test/blender.m3u8",
          colors=("#7b2cbf", "#f7f1ff"), mark="LUMO"),
     dict(id="meridian.demo", name="Meridian Discovery", group="Discovery", logo="meridian",
-         url="https://test-streams.mux.dev/tos_ismc/main.m3u8",
+         url="https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
          colors=("#0f4c5c", "#9ad1d4"), mark="MERIDIAN"),
     dict(id="vela.demo", name="Vela Maison", group="Lifestyle", logo="vela",
          url="https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",

@@ -2,8 +2,8 @@
 
 Run: python3 tools/make_artwork.py <fonts_dir>
 Fonts: Bricolage Grotesque and Instrument Sans (SIL Open Font License).
-Posters are original typographic designs made for this demo: they contain no
-frame, logo or artwork from the films.
+Posters are original abstract designs made for this demo, without any text (the app
+writes the title itself): they contain no frame, logo or artwork from the films.
 """
 import math
 import random
@@ -134,14 +134,7 @@ def poster(film):
     for y in range(560, H):
         sd.line([(0, y), (W, y)], fill=(0, 0, 0, int(200 * (y - 560) / (H - 560))))
     img = Image.alpha_composite(img, shade)
-    d = ImageDraw.Draw(img)
-    light = (250, 246, 240)
-    title = wrap_title(film["title"])
-    tf = fit_font(d, title, TITLE, W - 80, 96)
-    d.multiline_text((W // 2, 700 if "\n" in title else 740), title, font=tf, fill=light, anchor="mm", align="center", spacing=6)
-    small = ImageFont.truetype(TEXT, 22)
-    d.text((W // 2, 845), f"{film['author'].split(' /')[0]}  ·  {film['year']}", font=small,
-           fill=light + (200,), anchor="mm")
+    # No text on the poster: the app writes the title over it.
     img.convert("RGB").save(OUT / f"{film['slug']}.jpg", quality=90)
 
 

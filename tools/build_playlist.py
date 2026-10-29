@@ -18,15 +18,15 @@ lines = [
     "# ---------- Movies ----------",
 ]
 for f in FILMS:
-    lines.append(f'#EXTINF:-1 tvg-logo="{PAGES}/posters/{f["slug"]}.jpg" group-title="{f["group"]}",{f["title"]} ({f["year"]})')
+    lines.append(f'#EXTINF:-1 tvg-logo="{PAGES}/posters/{f["slug"]}.jpg?v=2" group-title="{f["group"]}",{f["title"]} ({f["year"]})')
     lines.append(f["url"])
 lines += ["", '# ---------- Series (episodes recognized by "S01E01" in the title) ----------']
 for s in SERIES:
-    lines.append(f'#EXTINF:-1 tvg-logo="{PAGES}/posters/caminandes.jpg" group-title="Kids & Family",{s["title"]}')
+    lines.append(f'#EXTINF:-1 tvg-logo="{PAGES}/posters/caminandes.jpg?v=2" group-title="Kids & Family",{s["title"]}')
     lines.append(s["url"])
 lines += ["", "# ---------- Live TV (public test streams, invented channel names) ----------"]
 for c in CHANNELS:
-    lines.append(f'#EXTINF:-1 tvg-id="{c["id"]}" tvg-logo="{PAGES}/posters/{c["logo"]}.png" group-title="{c["group"]}",{c["name"]}')
+    lines.append(f'#EXTINF:-1 tvg-id="{c["id"]}" tvg-logo="{PAGES}/posters/{c["logo"]}.png?v=2" group-title="{c["group"]}",{c["name"]}')
     lines.append(c["url"])
 
 (ROOT / "demo.m3u").write_text("\n".join(lines) + "\n", encoding="utf-8")

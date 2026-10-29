@@ -41,9 +41,10 @@ License texts: https://creativecommons.org/licenses/
 
 Logos and trademarks (including the Blender, project and Creative Commons logos) are not covered by these licenses and are not used here.
 Posters of Big Buck Bunny, Sintel, Elephants Dream, Sprite Fright and Caminandes in `posters/` are still frames taken from
-the works above, cropped and with the title added (changes made for this demo); they are shared under the same license
-as the work they come from. The other film posters are original typographic designs made for this demo
-(`tools/make_artwork.py`): they contain no frame, logo or artwork from the films.
+the works above, cropped and faded to black at the bottom (changes made for this demo); they are shared under the same
+license as the work they come from. The other film posters are original abstract designs made for this demo
+(`tools/make_artwork.py`): they contain no frame, logo or artwork from the films. Posters carry no text, because
+the app writes the title over them.
 Channel logos were created for this demo. Channel names (Orbis Ciné, Pixelia Kids, Lumo Animation, Meridian Discovery,
 Vela Maison) and every programme of the TV guide are invented.
 
