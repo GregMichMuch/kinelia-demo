@@ -30,7 +30,6 @@ Kinelia is not affiliated with or endorsed by any of the authors below.
 | Tears of Steel (2012) | (CC) Blender Foundation, mango.blender.org | CC BY 3.0 |
 | Cosmos Laundromat: First Cycle (2015) | (CC) Blender Foundation, gooseberry.blender.org (file hosted on the Internet Archive) | CC BY 4.0 |
 | Glass Half (2015) | (CC) Blender Foundation, studio.blender.org (file hosted on the Internet Archive) | CC BY 3.0 |
-| Hero (2018) | (CC) Blender Foundation, studio.blender.org (file hosted on the Internet Archive) | CC BY 4.0 |
 | Spring (2019) | (CC) Blender Foundation, studio.blender.org (file hosted on the Internet Archive) | CC BY 4.0 |
 | Coffee Run (2020) | (CC) Blender Foundation, studio.blender.org (file hosted on the Internet Archive) | CC BY 4.0 |
 | Wing It! (2023) | (CC) Blender Foundation, studio.blender.org (file hosted on the Internet Archive) | CC BY 4.0 |
