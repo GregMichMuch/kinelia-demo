@@ -81,6 +81,6 @@ CHANNELS = [
          url="https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
          colors=("#0f4c5c", "#9ad1d4"), mark="MERIDIAN"),
     dict(id="vela.demo", name="Vela Maison", group="Lifestyle", logo="vela",
-         url="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+         url="https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
          colors=("#f4e1d2", "#9c3d54"), mark="VELA"),
 ]

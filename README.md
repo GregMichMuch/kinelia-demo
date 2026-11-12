@@ -48,7 +48,7 @@ Channel logos were created for this demo. Channel names (Orbis Ciné, Pixelia Ki
 Vela Maison) and every programme of the TV guide are invented.
 
 Live demo channels use public test streams provided for player testing by their respective hosts
-(ireplay.tv test stream, Mux test streams, Unified Streaming demo). Their content is Blender Foundation
+(ireplay.tv test stream, Mux test streams, Unified Streaming demo, Bitmovin Sintel test stream). Their content is Blender Foundation
 Creative Commons footage; several demo channels share the same test stream.
 
 ## Maintenance
