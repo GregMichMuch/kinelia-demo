@@ -1,0 +1,44 @@
+== https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+   Uri.toString identique : true (https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4)
+   HEAD : 302 isRedirect=true location=https://dn710604.ca.archive.org/0/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+   resolve (195 ms) : https://dn801201.us.archive.org/0/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+== https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20(1080p).mp4
+   Uri.toString identique : true (https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20(1080p).mp4)
+   HEAD : 302 isRedirect=true location=https://dn720707.ca.archive.org/0/items/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20(1080p).mp4
+   resolve (338 ms) : https://dn720707.ca.archive.org/0/items/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20(1080p).mp4
+== https://archive.org/download/GlassHalf1080p/Glass%20Half-1080p.mp4
+   Uri.toString identique : true (https://archive.org/download/GlassHalf1080p/Glass%20Half-1080p.mp4)
+   HEAD : 302 isRedirect=true location=https://dn711108.ca.archive.org/0/items/GlassHalf1080p/Glass%20Half-1080p.mp4
+   resolve (412 ms) : https://dn711108.ca.archive.org/0/items/GlassHalf1080p/Glass%20Half-1080p.mp4
+== https://archive.org/download/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4
+   Uri.toString identique : true (https://archive.org/download/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4)
+   HEAD : 302 isRedirect=true location=https://dn710900.ca.archive.org/0/items/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4
+   resolve (301 ms) : https://dn710900.ca.archive.org/0/items/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4
+== https://archive.org/download/coffee-run/Coffee%20Run.mp4
+   Uri.toString identique : true (https://archive.org/download/coffee-run/Coffee%20Run.mp4)
+   HEAD : 302 isRedirect=true location=https://ia800101.us.archive.org/26/items/coffee-run/Coffee%20Run.mp4
+   resolve (223 ms) : https://ia800101.us.archive.org/26/items/coffee-run/Coffee%20Run.mp4
+== https://archive.org/download/sprite-fright-2021/Sprite%20Fright%20(2021).mp4
+   Uri.toString identique : true (https://archive.org/download/sprite-fright-2021/Sprite%20Fright%20(2021).mp4)
+   HEAD : 302 isRedirect=true location=https://dn720409.ca.archive.org/0/items/sprite-fright-2021/Sprite%20Fright%20(2021).mp4
+   resolve (425 ms) : https://dn720409.ca.archive.org/0/items/sprite-fright-2021/Sprite%20Fright%20(2021).mp4
+== https://archive.org/download/wing_it/wing_it.mp4
+   Uri.toString identique : true (https://archive.org/download/wing_it/wing_it.mp4)
+   HEAD : 302 isRedirect=true location=https://ia803106.us.archive.org/32/items/wing_it/wing_it.mp4
+   resolve (191 ms) : https://ia803106.us.archive.org/32/items/wing_it/wing_it.mp4
+== https://archive.org/download/sita-sings-the-blues/sita-sings-the-blues.mp4
+   Uri.toString identique : true (https://archive.org/download/sita-sings-the-blues/sita-sings-the-blues.mp4)
+   HEAD : 302 isRedirect=true location=https://dn720400.ca.archive.org/0/items/sita-sings-the-blues/sita-sings-the-blues.mp4
+   resolve (279 ms) : https://dn720400.ca.archive.org/0/items/sita-sings-the-blues/sita-sings-the-blues.mp4
+== https://archive.org/download/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+   Uri.toString identique : true (https://archive.org/download/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4)
+   HEAD : 302 isRedirect=true location=https://dn711003.ca.archive.org/0/items/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+   resolve (393 ms) : https://dn711003.ca.archive.org/0/items/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+== https://archive.org/download/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+   Uri.toString identique : true (https://archive.org/download/Caminandes2GranDillama/02_gran_dillama_1080p.mp4)
+   HEAD : 302 isRedirect=true location=https://dn801206.us.archive.org/0/items/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+   resolve (430 ms) : https://dn711105.ca.archive.org/0/items/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+== https://archive.org/download/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
+   Uri.toString identique : true (https://archive.org/download/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4)
+   HEAD : 302 isRedirect=true location=https://dn710602.ca.archive.org/0/items/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
+   resolve (437 ms) : https://dn710602.ca.archive.org/0/items/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
