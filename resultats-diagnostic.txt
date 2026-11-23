@@ -1,0 +1,290 @@
+Titres archive.org : 11
+
+===== Titre 1 : https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+UA [Lavf/8.0] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn710604.ca.archive.org/0/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+UA [Lavf/61.7.100] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn801201.us.archive.org/0/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+UA [Dalvik/2.1.0 (Linux; U; Android 14)] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn710604.ca.archive.org/0/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+UA [ExoPlayer] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn710604.ca.archive.org/0/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+UA [curl/8] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn710604.ca.archive.org/0/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+-- Chaîne de renvois (en-têtes, UA Lavf/8.0) :
+HTTP/1.1 302 Found
+Server: nginx/1.26.3
+Content-Type: video/mp4
+Location: https://dn710604.ca.archive.org/0/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: video/mp4
+Content-Length: 61878609
+Accept-Ranges: bytes
+-- 512 premiers octets avec Range (UA Lavf/8.0), en hexadécimal :
+00000000: 0000 0020 6674 7970 6973 6f6d 0000 0200  ... ftypisom....
+00000010: 6973 6f6d 6973 6f32 6176 6331 6d70 3431  isomiso2avc1mp41
+00000020: 0005 4c19 6d6f 6f76 0000 006c 6d76 6864  ..L.moov...lmvhd
+00000030: 0000 0000 0000 0000 0000 0000 0000 03e8  ................
+-- ffprobe (FFmpeg du bureau, UA par défaut) :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2|duration=596.480000
+-- ffprobe sans Icy, sans multiple_requests, seekable=0 :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2
+
+===== Titre 2 : https://archive.org/download/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+UA [Lavf/8.0] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn600203.us.archive.org/0/items/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+UA [Lavf/61.7.100] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn711003.ca.archive.org/0/items/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+UA [Dalvik/2.1.0 (Linux; U; Android 14)] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn711003.ca.archive.org/0/items/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+UA [ExoPlayer] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn711003.ca.archive.org/0/items/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+UA [curl/8] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn711003.ca.archive.org/0/items/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+-- Chaîne de renvois (en-têtes, UA Lavf/8.0) :
+HTTP/1.1 302 Found
+Server: nginx/1.26.3
+Content-Type: video/mp4
+Location: https://dn711003.ca.archive.org/0/items/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: video/mp4
+Content-Length: 35103580
+Accept-Ranges: bytes
+-- 512 premiers octets avec Range (UA Lavf/8.0), en hexadécimal :
+00000000: 0000 0018 6674 7970 6d70 3432 0000 0000  ....ftypmp42....
+00000010: 6973 6f6d 6d70 3432 0000 7187 6d6f 6f76  isommp42..q.moov
+00000020: 0000 006c 6d76 6864 0000 0000 cd3a faed  ...lmvhd.....:..
+00000030: cd3a faed 0000 0258 0000 d2f0 0001 0000  .:.....X........
+-- ffprobe (FFmpeg du bureau, UA par défaut) :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2|duration=90.000544
+-- ffprobe sans Icy, sans multiple_requests, seekable=0 :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2
+
+===== Titre 3 : https://archive.org/download/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+UA [Lavf/8.0] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn711105.ca.archive.org/0/items/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+UA [Lavf/61.7.100] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn801206.us.archive.org/0/items/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+UA [Dalvik/2.1.0 (Linux; U; Android 14)] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn711105.ca.archive.org/0/items/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+UA [ExoPlayer] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn711105.ca.archive.org/0/items/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+UA [curl/8] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn711105.ca.archive.org/0/items/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+-- Chaîne de renvois (en-têtes, UA Lavf/8.0) :
+HTTP/1.1 302 Found
+Server: nginx/1.26.3
+Content-Type: video/mp4
+Location: https://dn711105.ca.archive.org/0/items/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: video/mp4
+Content-Length: 125974946
+Accept-Ranges: bytes
+-- 512 premiers octets avec Range (UA Lavf/8.0), en hexadécimal :
+00000000: 0000 0018 6674 7970 6d70 3432 0000 0000  ....ftypmp42....
+00000010: 6d70 3432 6d70 3431 0000 1215 7575 6964  mp42mp41....uuid
+00000020: be7a cfcb 97a9 42e8 9c71 9994 91e3 afac  .z....B..q......
+00000030: 3c3f 7870 6163 6b65 7420 6265 6769 6e3d  <?xpacket begin=
+-- ffprobe (FFmpeg du bureau, UA par défaut) :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2|duration=146.041667
+-- ffprobe sans Icy, sans multiple_requests, seekable=0 :
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5c654aa4d0c0] stream 0, offset 0x118ba: partial file
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2
+
+===== Titre 4 : https://archive.org/download/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
+UA [Lavf/8.0] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn710602.ca.archive.org/0/items/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
+UA [Lavf/61.7.100] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn710602.ca.archive.org/0/items/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
+UA [Dalvik/2.1.0 (Linux; U; Android 14)] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn710602.ca.archive.org/0/items/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
+UA [ExoPlayer] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn710602.ca.archive.org/0/items/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
+UA [curl/8] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn710602.ca.archive.org/0/items/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
+-- Chaîne de renvois (en-têtes, UA Lavf/8.0) :
+HTTP/1.1 302 Found
+Server: nginx/1.26.3
+Content-Type: video/mp4
+Location: https://dn710602.ca.archive.org/0/items/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: video/mp4
+Content-Length: 138945811
+Accept-Ranges: bytes
+-- 512 premiers octets avec Range (UA Lavf/8.0), en hexadécimal :
+00000000: 0000 0020 6674 7970 6973 6f6d 0000 0200  ... ftypisom....
+00000010: 6973 6f6d 6973 6f32 6176 6331 6d70 3431  isomiso2avc1mp41
+00000020: 0001 ac58 6d6f 6f76 0000 006c 6d76 6864  ...Xmoov...lmvhd
+00000030: 0000 0000 0000 0000 0000 0000 0000 03e8  ................
+-- ffprobe (FFmpeg du bureau, UA par défaut) :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2|duration=150.100998
+-- ffprobe sans Icy, sans multiple_requests, seekable=0 :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2
+
+===== Titre 5 : https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20(1080p).mp4
+UA [Lavf/8.0] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720707.ca.archive.org/0/items/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20(1080p).mp4
+UA [Lavf/61.7.100] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720707.ca.archive.org/0/items/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20(1080p).mp4
+UA [Dalvik/2.1.0 (Linux; U; Android 14)] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720707.ca.archive.org/0/items/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20(1080p).mp4
+UA [ExoPlayer] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn600201.us.archive.org/0/items/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20(1080p).mp4
+UA [curl/8] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720707.ca.archive.org/0/items/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20(1080p).mp4
+-- Chaîne de renvois (en-têtes, UA Lavf/8.0) :
+HTTP/1.1 302 Found
+Server: nginx/1.26.3
+Content-Type: video/mp4
+Location: https://dn720707.ca.archive.org/0/items/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20(1080p).mp4
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: video/mp4
+Content-Length: 220087570
+Accept-Ranges: bytes
+-- 512 premiers octets avec Range (UA Lavf/8.0), en hexadécimal :
+00000000: 0000 0020 6674 7970 6973 6f6d 0000 0200  ... ftypisom....
+00000010: 6973 6f6d 6973 6f32 6176 6331 6d70 3431  isomiso2avc1mp41
+00000020: 0000 0008 6672 6565 0d16 49f8 6d64 6174  ....free..I.mdat
+00000030: 0000 0146 6588 8400 fffe f1dc f029 9ae5  ...Fe........)..
+-- ffprobe (FFmpeg du bureau, UA par défaut) :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2|duration=730.615873
+-- ffprobe sans Icy, sans multiple_requests, seekable=0 :
+ffprobe : code 124
+
+===== Titre 6 : https://archive.org/download/GlassHalf1080p/Glass%20Half-1080p.mp4
+UA [Lavf/8.0] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn711108.ca.archive.org/0/items/GlassHalf1080p/Glass%20Half-1080p.mp4
+UA [Lavf/61.7.100] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn711108.ca.archive.org/0/items/GlassHalf1080p/Glass%20Half-1080p.mp4
+UA [Dalvik/2.1.0 (Linux; U; Android 14)] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn711108.ca.archive.org/0/items/GlassHalf1080p/Glass%20Half-1080p.mp4
+UA [ExoPlayer] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn711108.ca.archive.org/0/items/GlassHalf1080p/Glass%20Half-1080p.mp4
+UA [curl/8] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn711108.ca.archive.org/0/items/GlassHalf1080p/Glass%20Half-1080p.mp4
+-- Chaîne de renvois (en-têtes, UA Lavf/8.0) :
+HTTP/1.1 302 Found
+Server: nginx/1.26.3
+Content-Type: video/mp4
+Location: https://dn800307.us.archive.org/0/items/GlassHalf1080p/Glass%20Half-1080p.mp4
+HTTP/1.1 200 OK
+Server: nginx/1.30.7
+Content-Type: video/mp4
+Content-Length: 65761189
+Accept-Ranges: bytes
+-- 512 premiers octets avec Range (UA Lavf/8.0), en hexadécimal :
+00000000: 0000 0020 6674 7970 6973 6f6d 0000 0200  ... ftypisom....
+00000010: 6973 6f6d 6973 6f32 6176 6331 6d70 3431  isomiso2avc1mp41
+00000020: 0002 3ddf 6d6f 6f76 0000 006c 6d76 6864  ..=.moov...lmvhd
+00000030: 0000 0000 0000 0000 0000 0000 0000 03e8  ................
+-- ffprobe (FFmpeg du bureau, UA par défaut) :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2|duration=193.216009
+-- ffprobe sans Icy, sans multiple_requests, seekable=0 :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2
+
+===== Titre 7 : https://archive.org/download/coffee-run/Coffee%20Run.mp4
+UA [Lavf/8.0] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://ia600101.us.archive.org/26/items/coffee-run/Coffee%20Run.mp4
+UA [Lavf/61.7.100] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://ia800101.us.archive.org/26/items/coffee-run/Coffee%20Run.mp4
+UA [Dalvik/2.1.0 (Linux; U; Android 14)] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://ia800101.us.archive.org/26/items/coffee-run/Coffee%20Run.mp4
+UA [ExoPlayer] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://ia800101.us.archive.org/26/items/coffee-run/Coffee%20Run.mp4
+UA [curl/8] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://ia800101.us.archive.org/26/items/coffee-run/Coffee%20Run.mp4
+-- Chaîne de renvois (en-têtes, UA Lavf/8.0) :
+HTTP/1.1 302 Found
+Server: nginx/1.26.3
+Content-Type: video/mp4
+Location: https://ia600101.us.archive.org/26/items/coffee-run/Coffee%20Run.mp4
+HTTP/1.1 200 OK
+Server: nginx/1.30.7
+Content-Type: video/mp4
+Content-Length: 17475695
+Accept-Ranges: bytes
+-- 512 premiers octets avec Range (UA Lavf/8.0), en hexadécimal :
+00000000: 0000 0020 6674 7970 6973 6f6d 0000 0200  ... ftypisom....
+00000010: 6973 6f6d 6973 6f32 6176 6331 6d70 3431  isomiso2avc1mp41
+00000020: 0000 0008 6672 6565 0108 955c 6d64 6174  ....free...\mdat
+00000030: 0000 0032 0605 2edc 45e9 bde6 d948 b796  ...2....E....H..
+-- ffprobe (FFmpeg du bureau, UA par défaut) :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2|duration=184.668299
+-- ffprobe sans Icy, sans multiple_requests, seekable=0 :
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56238c8a4100] stream 0, offset 0x30: partial file
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2
+
+===== Titre 8 : https://archive.org/download/sita-sings-the-blues/sita-sings-the-blues.mp4
+UA [Lavf/8.0] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720400.ca.archive.org/0/items/sita-sings-the-blues/sita-sings-the-blues.mp4
+UA [Lavf/61.7.100] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720400.ca.archive.org/0/items/sita-sings-the-blues/sita-sings-the-blues.mp4
+UA [Dalvik/2.1.0 (Linux; U; Android 14)] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720400.ca.archive.org/0/items/sita-sings-the-blues/sita-sings-the-blues.mp4
+UA [ExoPlayer] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720400.ca.archive.org/0/items/sita-sings-the-blues/sita-sings-the-blues.mp4
+UA [curl/8] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720400.ca.archive.org/0/items/sita-sings-the-blues/sita-sings-the-blues.mp4
+-- Chaîne de renvois (en-têtes, UA Lavf/8.0) :
+HTTP/1.1 302 Found
+Server: nginx/1.26.3
+Content-Type: video/mp4
+Location: https://dn720400.ca.archive.org/0/items/sita-sings-the-blues/sita-sings-the-blues.mp4
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: video/mp4
+Content-Length: 507536373
+Accept-Ranges: bytes
+-- 512 premiers octets avec Range (UA Lavf/8.0), en hexadécimal :
+00000000: 0000 0020 6674 7970 6973 6f6d 0000 0200  ... ftypisom....
+00000010: 6973 6f6d 6973 6f32 6176 6331 6d70 3431  isomiso2avc1mp41
+00000020: 002b 3036 6d6f 6f76 0000 006c 6d76 6864  .+06moov...lmvhd
+00000030: 0000 0000 0000 0000 0000 0000 0000 03e8  ................
+-- ffprobe (FFmpeg du bureau, UA par défaut) :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2|duration=4891.213991
+-- ffprobe sans Icy, sans multiple_requests, seekable=0 :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2
+
+===== Titre 9 : https://archive.org/download/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4
+UA [Lavf/8.0] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn710900.ca.archive.org/0/items/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4
+UA [Lavf/61.7.100] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn710900.ca.archive.org/0/items/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4
+UA [Dalvik/2.1.0 (Linux; U; Android 14)] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn800207.us.archive.org/0/items/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4
+UA [ExoPlayer] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn800207.us.archive.org/0/items/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4
+UA [curl/8] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn710900.ca.archive.org/0/items/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4
+-- Chaîne de renvois (en-têtes, UA Lavf/8.0) :
+HTTP/1.1 302 Found
+Server: nginx/1.26.3
+Content-Type: video/mp4
+Location: https://dn710900.ca.archive.org/0/items/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: video/mp4
+Content-Length: 48274047
+Accept-Ranges: bytes
+-- 512 premiers octets avec Range (UA Lavf/8.0), en hexadécimal :
+00000000: 0000 0020 6674 7970 6973 6f6d 0000 0200  ... ftypisom....
+00000010: 6973 6f6d 6973 6f32 6176 6331 6d70 3431  isomiso2avc1mp41
+00000020: 0004 20b3 6d6f 6f76 0000 006c 6d76 6864  .. .moov...lmvhd
+00000030: 0000 0000 0000 0000 0000 0000 0000 03e8  ................
+-- ffprobe (FFmpeg du bureau, UA par défaut) :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2|duration=464.127007
+-- ffprobe sans Icy, sans multiple_requests, seekable=0 :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2
+
+===== Titre 10 : https://archive.org/download/sprite-fright-2021/Sprite%20Fright%20(2021).mp4
+UA [Lavf/8.0] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720409.ca.archive.org/0/items/sprite-fright-2021/Sprite%20Fright%20(2021).mp4
+UA [Lavf/61.7.100] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720409.ca.archive.org/0/items/sprite-fright-2021/Sprite%20Fright%20(2021).mp4
+UA [Dalvik/2.1.0 (Linux; U; Android 14)] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720409.ca.archive.org/0/items/sprite-fright-2021/Sprite%20Fright%20(2021).mp4
+UA [ExoPlayer] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720409.ca.archive.org/0/items/sprite-fright-2021/Sprite%20Fright%20(2021).mp4
+UA [curl/8] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://dn720409.ca.archive.org/0/items/sprite-fright-2021/Sprite%20Fright%20(2021).mp4
+-- Chaîne de renvois (en-têtes, UA Lavf/8.0) :
+HTTP/1.1 302 Found
+Server: nginx/1.26.3
+Content-Type: video/mp4
+Location: https://dn720409.ca.archive.org/0/items/sprite-fright-2021/Sprite%20Fright%20(2021).mp4
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: video/mp4
+Content-Length: 60602625
+Accept-Ranges: bytes
+-- 512 premiers octets avec Range (UA Lavf/8.0), en hexadécimal :
+00000000: 0000 0020 6674 7970 6973 6f6d 0000 0200  ... ftypisom....
+00000010: 6973 6f6d 6973 6f32 6176 6331 6d70 3431  isomiso2avc1mp41
+00000020: 0006 9f35 6d6f 6f76 0000 006c 6d76 6864  ...5moov...lmvhd
+00000030: 0000 0000 0000 0000 0000 0000 0000 03e8  ................
+-- ffprobe (FFmpeg du bureau, UA par défaut) :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2|duration=629.841000
+-- ffprobe sans Icy, sans multiple_requests, seekable=0 :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2
+
+===== Titre 11 : https://archive.org/download/wing_it/wing_it.mp4
+UA [Lavf/8.0] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://ia903106.us.archive.org/32/items/wing_it/wing_it.mp4
+UA [Lavf/61.7.100] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://ia803106.us.archive.org/32/items/wing_it/wing_it.mp4
+UA [Dalvik/2.1.0 (Linux; U; Android 14)] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://ia803106.us.archive.org/32/items/wing_it/wing_it.mp4
+UA [ExoPlayer] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://ia803106.us.archive.org/32/items/wing_it/wing_it.mp4
+UA [curl/8] -> 206 | sauts=1 | type=video/mp4 | taille=0 | fin=https://ia903106.us.archive.org/32/items/wing_it/wing_it.mp4
+-- Chaîne de renvois (en-têtes, UA Lavf/8.0) :
+HTTP/1.1 302 Found
+Server: nginx/1.26.3
+Content-Type: video/mp4
+Location: https://ia903106.us.archive.org/32/items/wing_it/wing_it.mp4
+HTTP/1.1 200 OK
+Server: nginx/1.30.7
+Content-Type: video/mp4
+Content-Length: 65577790
+Accept-Ranges: bytes
+-- 512 premiers octets avec Range (UA Lavf/8.0), en hexadécimal :
+00000000: 0000 0020 6674 7970 6973 6f6d 0000 0200  ... ftypisom....
+00000010: 6973 6f6d 6973 6f32 6176 6331 6d70 3431  isomiso2avc1mp41
+00000020: 0000 0008 6672 6565 03e6 245c 6d64 6174  ....free..$\mdat
+00000030: 0000 02af 0605 ffff abdc 45e9 bde6 d948  ..........E....H
+-- ffprobe (FFmpeg du bureau, UA par défaut) :
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2|duration=237.937000
+-- ffprobe sans Icy, sans multiple_requests, seekable=0 :
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5bba767af0c0] stream 0, offset 0x30: partial file
+format|format_name=mov,mp4,m4a,3gp,3g2,mj2
