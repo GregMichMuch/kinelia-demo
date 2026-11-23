@@ -1,5 +1,5 @@
-# Diagnostic temporaire (V1.1, « cause du moteur principal ») : réponse
-# d'archive.org selon l'identité annoncée par chaque moteur. Branche à supprimer.
+# Diagnostic temporaire (V1.1, « cause du moteur principal »), 2e passage :
+# chiffrement (TLS) des serveurs d'archive.org comparé aux sites qui marchent.
 name: Diagnostic moteur
 on:
   push:
@@ -11,39 +11,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Outils
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null && ffmpeg -version | head -1
-      - name: Mesures
+      - name: Mesures TLS
         run: |
-          out=resultats-diagnostic.txt
-          : > "$out"
-          lavf="Lavf/$(ffmpeg -version | head -1 | awk '{print $3}' | cut -d. -f1-2)"
-          grep -o 'https\?://[^ ]*archive\.org[^ ]*' demo.m3u | tr -d '\r' | sort -u > urls.txt
-          echo "Titres archive.org : $(wc -l < urls.txt)" >> "$out"
-          n=0
-          while read -r u; do
-            n=$((n+1))
-            echo "" >> "$out"; echo "===== Titre $n : $u" >> "$out"
-            for ua in "$lavf" "Lavf/61.7.100" "Dalvik/2.1.0 (Linux; U; Android 14)" "ExoPlayer" "curl/8"; do
-              r=$(curl -s -o /dev/null -L --max-time 20 -A "$ua" -H 'Range: bytes=0-' -H 'Icy-MetaData: 1' \
-                   -w '%{http_code} | sauts=%{num_redirects} | type=%{content_type} | taille=%{size_download} | fin=%{url_effective}' \
-                   --max-filesize 1 "$u" 2>&1 || true)
-              echo "UA [$ua] -> $r" >> "$out"
+          out=resultats-tls.txt; : > "$out"
+          hosts="archive.org"
+          for u in $(grep -o 'https://archive\.org[^ ]*' demo.m3u | tr -d '\r' | sort -u | head -4); do
+            h=$(curl -sI --max-time 20 "$u" | grep -i '^location:' | sed -E 's#.*https://([^/]+)/.*#\1#' | tr -d '\r')
+            hosts="$hosts $h"
+          done
+          hosts="$hosts download.blender.org test-streams.mux.dev cdn.theoplayer.com demo.unified-streaming.com"
+          for h in $hosts; do
+            echo "===== $h" >> "$out"
+            for v in tls1_2 tls1_3; do
+              r=$(echo | timeout 15 openssl s_client -connect "$h:443" -servername "$h" -$v 2>&1 | grep -E '^(New|    Protocol|    Cipher|Verify return)' | tr '\n' ' ')
+              echo "$v : ${r:-échec}" >> "$out"
             done
-            echo "-- Chaîne de renvois (en-têtes, UA $lavf) :" >> "$out"
-            curl -sIL --max-time 20 -A "$lavf" "$u" | grep -iE '^(HTTP/|location|content-type|content-length|accept-ranges|server)' >> "$out" || true
-            echo "-- 512 premiers octets avec Range (UA $lavf), en hexadécimal :" >> "$out"
-            curl -sL --max-time 20 -A "$lavf" -H 'Range: bytes=0-511' "$u" | head -c 64 | xxd | head -4 >> "$out" || true
-            echo "-- ffprobe (FFmpeg du bureau, UA par défaut) :" >> "$out"
-            timeout 40 ffprobe -v error -show_entries format=format_name,duration -of compact "$u" >> "$out" 2>&1 || echo "ffprobe : code $?" >> "$out"
-            echo "-- ffprobe sans Icy, sans multiple_requests, seekable=0 :" >> "$out"
-            timeout 40 ffprobe -v error -icy 0 -seekable 0 -show_entries format=format_name -of compact "$u" >> "$out" 2>&1 || echo "ffprobe : code $?" >> "$out"
-          done < urls.txt
+            echo | timeout 15 openssl s_client -connect "$h:443" -servername "$h" -showcerts 2>/dev/null | grep -E '^ *[0-9] s:|i:|a:PKEY' | head -8 >> "$out"
+            echo "Sans SNI (tls1_2) : $(echo | timeout 15 openssl s_client -connect "$h:443" -tls1_2 -noservername 2>&1 | grep -E '^New|alert|error' | head -2 | tr '\n' ' ')" >> "$out"
+            echo "HTTP/1.1 sur ALPN : $(curl -s -o /dev/null --http1.1 --max-time 15 -w '%{http_code} %{http_version}' https://$h/ )" >> "$out"
+          done
           cat "$out"
       - name: Résultats dans la branche
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add resultats-diagnostic.txt
-          git commit -m "Résultats du diagnostic moteur [skip ci]"
+          git pull -q --rebase || true
+          git add resultats-tls.txt
+          git commit -m "Résultats du diagnostic TLS [skip ci]"
           git push
