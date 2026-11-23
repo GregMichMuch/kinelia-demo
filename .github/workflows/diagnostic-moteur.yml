@@ -11,7 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: dart-lang/setup-dart@v1
+      - name: Renvois vus par Dart (code de Kinelia)
+        run: dart run tools/diag/redirects_check.dart demo.m3u | tee resultats-dart.txt
       - name: Mesures TLS
+        if: false
         run: |
           out=resultats-tls.txt; : > "$out"
           hosts="archive.org"
@@ -36,6 +40,6 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git pull -q --rebase || true
-          git add resultats-tls.txt
-          git commit -m "Résultats du diagnostic TLS [skip ci]"
+          git add resultats-dart.txt
+          git commit -m "Résultats du diagnostic Dart [skip ci]"
           git push
